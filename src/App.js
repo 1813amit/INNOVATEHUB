@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './Components/Navbar'
+import Screen1 from './Components/Screen1'
+import Trusted from './Components/Trusted'
+import Screen3 from "./Components/Screen3"
+import Screen4 from "./Components/Screen4"
+import Screen5 from "./Components/Screen5"
+import Analaytics from './Components/Analaytics'
+import Secured from './Components/Secured'
+import Keyfeature from './Components/Keyfeature'
+import Location from './Components/Location'
+import Industries from './Components/Industries'
+import Video from './Components/Video'
+import Intrigration from './Components/Intrigration'
+import Enterprises from './Components/Enterprises'
+import Address from './Components/Address'
 
-function App() {
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+     <Navbar />
+     <Screen1 />
+     <Trusted />
+     <Screen3 />
+     <Screen4 />
+     <Screen5 />
+     <Analaytics />
+     <Secured />
+     <Keyfeature />
+     <Location />
+     <Industries />
+     <Video />
+    <Intrigration />
+    <Enterprises />
+    <Address />
+    </>
+  )
 }
 
-export default App;
+export default App
